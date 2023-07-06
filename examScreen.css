@@ -1,0 +1,133 @@
+.exam__screen {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.exam__screen>p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #30b906;
+    color: #fff;
+}
+
+.examScreen__container {
+    display: flex;
+    height: 70vh;
+}
+
+.examScreen__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #30b906;
+    flex: 0.7;
+    padding: 10px;
+}
+.question{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding-top: 5px;
+}
+.question p:first-child{
+    font-size: .7rem;
+    font-weight: 700;
+}
+.question p{
+    font-weight: 500;
+}
+
+.ans__container span{
+    font-size: .8rem;
+
+}
+.ans__container form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    width: fit-content;
+    /* background-color: #386dff; */
+}
+
+
+.examScreen__btns{
+    display: flex;
+    justify-content: space-around;
+
+}
+.btns{
+    padding: 5px 10px;
+    background-color: #386dff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.btns:hover{
+    cursor: pointer;
+}
+
+
+.examScreen__right {
+    border: 2px solid #30b906;
+    flex: 0.3;
+    padding: 2px;
+}
+.header__container{
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: #b9ffa3;
+    text-align: center;
+}
+.qsReview__info{
+    font-size: .65rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    border-bottom: 1px solid ;
+}
+.green{
+    background-color: #30b906;
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+.red{
+    background-color: #cc2626;
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+.yellow{
+    background-color: #ccb326;
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+
+
+
+.pallete__container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 10px 2px;
+}
+.qs__pallete{
+    background-color: #cc2626;
+    text-align: center;
+    padding: 10px 0;
+}
+.qs__pallete:hover{
+    cursor: pointer;
+}
+
+.answered{
+    background-color: #30b906;
+}
+.review{
+    background-color: #ccb326;
+}
